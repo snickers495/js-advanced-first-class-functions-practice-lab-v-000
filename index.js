@@ -22,7 +22,7 @@ function driversByName(arr){
   })
 }
 function totalRevenue(arr){
-  let newArr = arr.reduce(function(total, ele2) {
+  let newArr = arr.reduce(function(total, el, i, ele2) {
     return (total + ele2.revenue) });
 }
 function averageRevenue(arr) {
