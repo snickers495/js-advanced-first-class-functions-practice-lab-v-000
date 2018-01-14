@@ -26,7 +26,5 @@ function totalRevenue(arr){
     return (total + ele2.revenue) }, 0);
 }
 function averageRevenue(arr) {
-  let newRev = arr.reduce((total, curr) => total + curr.revenue
-  )
-  return newRev
+  return totalRevenue(arr) / arr.length
 }
